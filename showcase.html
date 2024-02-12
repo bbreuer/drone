@@ -16,16 +16,21 @@
         
         <!-- Video Layer -->
         <video class="w-full h-full object-cover" autoplay loop muted playsinline>
-          <source src="droneWoods.mp4" type="video/mp4">
+          <source src="video1.mp4" type="video/mp4">
         </video>
         
         <!-- Darken Background Layer -->
-        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
 
         <!-- Company Name Layer -->
         <div class="absolute top-0 left-0 z-20 w-full h-full flex flex-col justify-center items-center">
           <p class="text-white text-5xl font-custom">Showcase</p>
           <p class="text-white text-sm sm:text-xl font-custom">Browse through our collection of drone landscapes</p>
+        </div>
+
+        <div class="absolute top-0 left-0 z-20 w-full h-full flex justify-center gap-10 items-center mt-16">
+          <img src="arrow-left-solid.svg" class="h-6 cursor-pointer" alt="Home SVG"/>
+          <img src="arrow-right-solid.svg" class="h-6 cursor-pointer" alt="Home SVG"/>
         </div>
 
     </div>
@@ -43,7 +48,7 @@
 
 
     <a href="#">
-        <img src = "bars-solid.svg" class="h-6 mr-10 md:mr-0 lg:mr-0" alt="Home SVG" type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation"/>
+        <img src = "bars-solid.svg" class="h-6 mt-1 mr-10 md:mr-0 lg:mr-0" alt="Home SVG" type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation"/>
     </a>
    
       
@@ -65,19 +70,14 @@
       <div>
         <ul class="space-y-2 font-medium">
            <li>
-              <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <a href="index.html" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <i class="fa-brands fa-youtube cursor-pointer" style="color: #ffffff;"></i>
-                 <span class="ms-3">YouTube</span>
+                 <span class="ms-3">Home</span>
               </a>
            </li>
-           <li>
-            <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-              <i class="fa-brands fa-youtube cursor-pointer" style="color: #ffffff;"></i>
-               <span class="ms-3">Showcase</span>
-            </a>
-         </li>
         </ul>
       </div>
+    </div>
 
       <!-- Drawer Layer -->
 
