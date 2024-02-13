@@ -16,21 +16,26 @@
         
         <!-- Video Layer -->
         <video class="w-full h-full object-cover" autoplay loop muted playsinline>
-          <source src="video1.mp4" type="video/mp4">
+          <source src="video3.mp4" type="video/mp4">
         </video>
         
         <!-- Darken Background Layer -->
-        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
+        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
 
         <!-- Company Name Layer -->
-        <div class="absolute top-0 left-0 z-20 w-full h-full flex flex-col justify-center items-center">
-          <p class="text-white text-5xl font-custom">Showcase</p>
-          <p class="text-white text-sm sm:text-xl font-custom">Browse through our collection of drone landscapes</p>
+        <div class="absolute top-0 left-0 z-20 mt-28 w-full h-full flex flex-col justify-top items-center">
+          <p class="text-white text-5xl font-custom">Contact me</p>
+          <p class="text-white text-sm sm:text-xl font-custom">Want a drone session? Inquire below</p>
         </div>
 
-        <div class="absolute top-0 left-0 z-20 w-full h-full flex justify-center gap-10 items-center mt-16">
-          <img src="arrow-left-solid.svg" class="h-6 cursor-pointer" alt="Home SVG"/>
-          <img src="arrow-right-solid.svg" class="h-6 cursor-pointer" alt="Home SVG"/>
+        <div class="absolute top-0 left-0 z-20 mt-4 w-full h-full flex justify-center items-center text-white text-xl">
+            <form class="flex flex-col gap-4">
+                <label for="name" class="font-custom">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" class="text-black font-custom" required>
+                <label for="fname" class="font-custom">Email:</label>
+                <input type="email" id="email" email="email" placeholder="email" class="text-black font-custom" required>
+                <button type="submit" class="bg-white hover:bg-gray-500 text-black font-semibold py-2 px-4 border border-black rounded font-custom">Submit</button>
+            </form>
         </div>
 
     </div>
@@ -42,13 +47,9 @@
         <img src="house-solid.svg" class="h-6 hidden md:inline lg:inline cursor-pointer" alt="Home SVG"/>
     </a>
 
-    <a href="#">
+    <a href="showcase.html">
         <img src="youtube.svg" class="h-6 hidden md:inline lg:inline" alt="YouTube SVG"/>
     </a>
-
-    <a href="contact.html">
-      <img src="mail.svg" class="h-6 hidden md:inline lg:inline" alt="YouTube SVG"/>
-  </a>
 
 
     <a href="#">
@@ -80,9 +81,9 @@
               </a>
            </li>
            <li>
-            <a href="contact.html" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            <a href="showcase.html" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
               <i class="fa-brands fa-youtube cursor-pointer" style="color: #ffffff;"></i>
-               <span class="ms-3">Contact</span>
+               <span class="ms-3">Showcase</span>
             </a>
          </li>
         </ul>
